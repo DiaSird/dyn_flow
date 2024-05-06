@@ -27,13 +27,13 @@ $\frac{d}{dt} x(t) = v(t)$
   - Navier-Stokes equation:
     $\frac{d\bm{v}}{dt} = \frac{1}{\rho}\nabla \cdot {\bm{\sigma}}$,
     where $\bm{\sigma}$ is fluid stress given as
-    $\bm{\sigma} = p\bm{I} + 2\mu\bm{D}$
+    $\bm{\sigma} = p\bm{I} + 2\mu\bm{D}$.
 
 - Ricci Flow: $\frac{\partial}{\partial t} g_{ij} = - 2 Rc_{ij}$
-  ($g_{ij}$: metric and $Rc_{ij}$: Ricci curvature)
+  ($g_{ij}$: metric tensor components and $Rc_{ij}$: Ricci curvature)
 
   In case of the Einstein manifold $(M, g_0)$, we can write the metric $g_{ij}$ as
-  $g_{ij} = f(t) g_0$ where $Rc_{ij} = c g_0$
+  $g_{ij} = f(t) g_0$, where $Rc_{ij} = c g_0$
   $(g(0) = g_0, c = const.)$.
 
   Therefore, $\frac{\partial}{\partial t} f(t) = - 2 c \Leftrightarrow f(t) = 1 - 2ct$ and $g_{ij} = (1 - 2ct) g_0$.

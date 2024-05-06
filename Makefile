@@ -9,4 +9,7 @@ log:
 	@echo "develop mode: log level(${LOG_LEVEL})"
 	@echo RUST_BACKTRACE=1;RUST_LOG=${LOG_LEVEL} && cargo run
 
+test:
+	cargo run
+
 .PHONY: log run
